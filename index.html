@@ -48,16 +48,16 @@
                     <ul class="dropdown-menu" aria-labelledby="mode">
                         <li><a class="dropdown-item" onclick="changeMode(MODE_NORMAL)">普通模式</a></li>
                         <li><a class="dropdown-item" onclick="changeMode(MODE_ENDLESS)">無盡模式</a></li>
-                        <li><a class="dropdown-item" onclick="changeMode(MODE_PRACTICE)">练习模式</a></li>
+                        <li><a class="dropdown-item" onclick="changeMode(MODE_PRACTICE)">練習模式</a></li>
                     </ul>
                 </div>
 
                 <br/>
-                <a class="btn btn-secondary btn-lg" onclick="show_setting()">游戏设置</a>
+                <a class="btn btn-secondary btn-lg" onclick="show_setting()">遊戲設定</a>
             </div>
             <div id="setting" style="display: none;">
                 <div class="container mb-3">
-                    <input type="button" class="btn btn-secondary btn-lg" onclick="getClickBeforeImage()" value="设置点击前的图" style="left: 0">
+                    <input type="button" class="btn btn-secondary btn-lg" onclick="getClickBeforeImage()" value="設定點擊前的圖" style="left: 0">
                     <input type="file" id="click-before-image" accept="image/*" style="display: none;" onchange="saveClickBeforeImage()">
                     <input type="button" class="btn btn-secondary btn-lg" onclick="getClickAfterImage()" value="设置点击后的图" style="right: 0">
                     <input type="file" id="click-after-image" accept="image/*" style="display: none;" onchange="saveClickAfterImage()">

@@ -3,20 +3,18 @@
 </p>
 <div align="center">
 
-# EatKano
+# EatGuoDong(來源EatKano)
 
-_🦌 网页小游戏 🥛_
+_🦌 網頁小遊戲 🥛_
 
 </div>
 
 
-## 简介
+## 簡介
 
-小游戏：吃掉小鹿乃
+小遊戲：吃掉國動
 
-[线上版本](https://xingye.me/game/eatkano/index.php)
-|
-[Github Page](https://arcxingye.github.io/EatKano/index.html)
+[Github Page](https://han-han030.github.io/GuoDong/)
 
 ## 可选功能
 

@@ -50,7 +50,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
     }
 
     function modeToString(m) {
-        return m === MODE_NORMAL ? "普通模式" : (m === MODE_ENDLESS ? "无尽模式" : "练习模式");
+        return m === MODE_NORMAL ? "普通模式" : (m === MODE_ENDLESS ? "無盡模式" : "練習模式");
     }
 
     w.changeMode = function(m) {
@@ -215,7 +215,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
 
     function SubmitResults() {
         let system = "其他操作系统";
-        let area = "异世界";
+        let area = "異世界";
         if ($("#username").val() && _gameSettingNum === 20) {
             const systems = [
                 ['Win', 'Windows'],
@@ -430,7 +430,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
+        if (cps <= 5) return '試著再練一下？';
         if (cps <= 8) return 'TCL';
         if (cps <= 10)  return 'TQL';
         if (cps <= 15) return '您';
